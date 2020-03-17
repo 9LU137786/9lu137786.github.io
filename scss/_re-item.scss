@@ -1,0 +1,27 @@
+section.re-section {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  max-width: 75rem;
+  .re-item {
+    .re-content {}
+    .re-date {
+      min-width: none;
+    }
+  }
+}
+@media (min-width: 768px) {
+  section.re-section {
+    min-height: 100vh;
+    .re-item {
+      .re-date {
+        min-width: 18rem;
+      }
+    }
+  }
+}
+@media (min-width: 992px) {
+  section.re-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
